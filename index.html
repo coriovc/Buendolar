@@ -25,61 +25,90 @@
         </div>
     </div>-->
     
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
-
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image d-none d-xl-block" href="index.html"><img id="logo" src="images/Logo-white.svg" alt="alternative"></a>
         
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image d-none d-xl-block" href="index.html"><img id="logo" src="images/Logo-white.svg" alt="alternative"></a>        
         <a class="navbar-brand logo-image-small d-inline-block d-xl-none" href="index.html"><img id="logo-movil" src="images/Logo-small-white.svg" alt="alternative"></a> 
         
         <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" id="btn-nav" type="button" data-toggle="collapse" data-target="#navbar-movil" aria-controls="navbar-movil" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
             <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
         <!-- end of mobile menu toggle button -->
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">                
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn-reg page-scroll" href="#your-link">Registrarce</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="btn-log page-scroll ml-2" href="#your-link">Ingresar</a>
-                </li>                  
-
-                
-            </ul>            
+        <!-- menu desk -->
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">                
+            <li class="nav-item"><a class="nav-link page-scroll" href="#" target="_blank">Blog</a></li>
+            <li class="nav-item"><a class="nav-link page-scroll" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="btn-reg page-scroll" href="#your-link">Registrarce</a></li>   
+            <li class="nav-item"><a class="btn-log page-scroll ml-2" href="#your-link">Ingresar</a></li>
+          </ul>            
         </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+        
+        <!-- Collapse menu movil -->
+        <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="margin: 0px -1rem; padding: 1.2rem;">
+          <ul class="navbar-nav ml-auto text-center" style="margin: -1rem 0 4rem 0;">                
+            <li class="nav-item my-3"><a class="link-a" href="#" target="_blank">Blog</a></li>
+            <li class="nav-item my-3"><a class="link-a" href="contacto.html">Contacto</a></li>
+            <li class="nav-item my-3"><a class="btn-green btn-block-2 py-4" href="#your-link">Registrarce</a></li>  
+            <li class="nav-item my-3"><a class="btn-green-outline btn-block-2 py-4" href="#your-link">Ingresar</a></li>
+          </ul>
+        <hr>
+            <div class="text-center"><!-- Icon social -->
+              <span class="fa-stack"><a href="#your-link" target="_blank">
+                                     <i class="fab fa-facebook-f fa-stack-1x"></i></a></span>
+              <span class="fa-stack"><a href="#your-link" target="_blank">
+                                     <i class="fab fa-twitter fa-stack-1x"></i></a></span>
+              <span class="fa-stack"><a href="#your-link" target="_blank">
+                                     <i class="fab fa-linkedin-in fa-stack-1x"></i></a></span>
+              <span class="fa-stack"><a href="#your-link" target="_blank">
+                                     <i class="fab fa-instagram fa-stack-1x"></i></a></span>
+              <span class="fa-stack"><a href="#your-link" target="_blank">
+                                     <i class="fab fa-youtube fa-stack-1x"></i></a></span>
+            </div>
+        <hr>
+            <div class="row my-4 justify-content-between" style="margin: 1rem;"><!-- footer Collapse menu movil -->   
+              <div>
+                <div><a href="terminos-y-condiciones.html" class="link-a mov">Términos y condiciones</a></div>
+                <div><a href="cookies.html" class="link-a mov">Cookies</a></div>
+                <div><a href="legales.html" class="link-a mov">Legales</a></div>
+              </div>
+              <div> 
+                <div>
+                    <p class="text-footer-f1" style="margin-bottom: -0.5rem;">Más información</p>
+                    <a href="cookies.html" class="link-a mov">info@buendolar.com</a>
+                </div>
+                <div class="mt-1">
+                    <p class="text-footer-f1" style="margin-bottom: -0.5rem;">Soporte</p>
+                    <a href="cookies.html" class="link-a mov">soporte@buendolar.com</a>
+                </div>
+              </div>
+            </div>     
+        </div><!-- end of Collapse menu movil -->
+    </nav><!-- end of navigation -->
 
-
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="image-container d-none d-xl-block">
+    <div class="site-section-cover" style="background-image: url('images/fondo-1.jpg')">
+        <div class="container">
+                <div class="row index" style="margin: 0">
+                    <div class="col-lg-6 d-none d-xl-block">
+                        <div class="image-container">
                             <img class="img-fluid-phone" src="images/phone.png" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div>
-                    <div class="col-lg-7">
-                        <div class="text-container">
-                            <h1 class="title1" >Ahorrá en </h1>
-                            <h1 class="title2"><span id="js-rotating">BTD, USD, DAI</span></h1>
-                            <p class="p-large">Buendolar es una billetera digital en donde podes comprar dolar, oro y bitcoin al mejor precio del mercado y en un solo lugar.</p>
+                    <div class="col-lg-6">
+                        <div class="text-container container-resp">
+                            <h1 class="title1 text-white">Ahorrá en </h1>
+                            <h1 class="title2 text-white"><span id="js-rotating">BTD, USD, DAI</span></h1>
+                        </div>
+                        <div class="image-container d-inline-block d-xl-none">
+                            <img class="img-fluid-phone" src="images/phone.png" alt="alternative">
+                        </div>
+                        <div class="text-container d-none d-xl-block">
+                            <p class="p-large text-white">Buendolar es una billetera digital en donde podes comprar dolar, oro y bitcoin al mejor precio del mercado y en un solo lugar.</p>
                             <hr class="line-header">
                             <h4 class="my-4 text-pri"><strong style="font-weight: 700!important;">¿Ver para creer?</strong> Descargate la APP.</h4>
                             <a class="mx-2" href="#your-link"><img class="img-fluid-btn-download" width="150" src="images/btn-apple-store.svg" alt="alternative"></a>
@@ -88,22 +117,39 @@
                         </div>
                     </div> <!-- end of col -->
                      <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
+                </div> <!-- end of row -->       
         </div>
-        <!-- end of header-content -->
         <div class="scrolldown">
         <a href="#section-1" class="page-scroll" style="text-decoration: none;"><span>Scrolldown<br><i class="fas fa-arrow-down"></i></span></a>
+    </div>        
     </div>
-    </header>
-     <!-- end of header -->
+
     
+    <!-- secction -->
+    <div class="slider-2 d-inline-block d-xl-none">
+        <div class="container">
+            <div class="row">  
+                    <div class="col-lg-7" style="padding: 0 1.5rem;">                        
+                        <div class="text-container text-center">
+                            <p class="p-large">Buendolar es una billetera digital en donde podes comprar dolar, oro y bitcoin al mejor precio del mercado y en un solo lugar.</p>
+                            <hr class="line-header">
+                            <h4 class="my-4 text-pri"><strong style="font-weight: 700!important;">¿Ver para creer?</strong> Descargate la APP.</h4>
+                            <a href="#your-link"><img class="img-fluid-btn-download" width="150" src="images/btn-apple-store.svg" alt="alternative"></a>
+                            <a class="ml-2" href="#your-link"><img class="img-fluid-btn-download" width="150" src="images/btn-google-play.svg" alt="alternative"></a>
+                            <a href="#your-link"><img class="img-fluid-btn-download" width="150" src="images/btn-browser.svg" alt="alternative"></a>
+                        </div>
+                    </div> <!-- end of col -->
+            </div> <!-- end of row -->           
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of secction -->
+
     <!-- secction -->
     <div class="slider-2" id="section-1">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-primary text-title">Conocé como ahorrar con Buendolar</h2>
+            <div class="row">                
+                <div class="col-lg-12 text-center" >
+                    <h2 class="text-primary text-title-cca">Conocé como ahorrar con Buendolar</h2>
                     <h3 class="text-pri-a">4 escalones hacia tu mejor ahorro.</h3>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->           
@@ -112,30 +158,50 @@
     <!-- end of secction -->
 
 
-<div>
-    <div class="bg-sec"></div>
+    <div style="padding-bottom: 4rem;"><!-- seccion full screen -->
+      <div class="bg-sec"></div>
 
         <!-- seccion 1 -->
 
         <section class="section-gra">
             <div class="row" style="margin-right:0; margin-left:0;">
-                <div class="col-lg-6 text-center" style="padding-top: 12%">
+        <!-- Desk --------------------------------------------------------------------------->
+                <div class="col-lg-6 text-center d-none d-xl-block" style="padding-top: 12%">
                    <img width="75" src="images/icon-usd.svg" alt="icon-usd" style="margin-bottom: 3rem;">
                    <div class="text-container-1">
-                    <h1 class="numero">1</h1>
-                        <h2 class="text-white text-section-a">AHORRO NIVEL<br>
-                        <span class="text-white text-section-a1">RECONOCIMIENTO</span></h2>                        
+                      <h1 class="numero">1</h1>
+                      <h2 class="text-white text-section-a">AHORRO NIVEL<br>
+                      <span class="text-white text-section-a1">RECONOCIMIENTO</span></h2>                        
                     </div> 
-                </div> <!-- end of col -->
-                <div class="col-lg-5" style="padding-left: 10rem; padding-top: 16%">
-                    
-                        <img width="75" src="images/icon-peso-dolar.svg" alt="icon-peso-dolar" style="margin-bottom: 0.8rem;">
-                        <div class="text-container-2">                        
-                            <h1 class="text-primary text-section-b border-1">De PESO a DÓLAR</h1>
-                            <br>
+                </div> <!-- end of col --> 
+                <div class="col-lg-5 d-none d-xl-block" style="padding-left: 10rem; padding-top: 16%">
+                  <img width="75" src="images/icon-peso-dolar.svg" alt="icon-peso-dolar" style="margin-bottom: 0.8rem;">
+                  <div class="text-container-2">                        
+                    <h1 class="text-primary text-section-b border-1">De PESO a DÓLAR</h1><br>
+                    <span class="text-primary text-section-b1">Comprá dólar solidario al<br> mejor precio del mercado.</span>                        
+                  </div> <!-- end of text-container -->
+                </div> <!-- end of col --> 
+        <!-- Movil --------------------------------------------------------------------------->
+                <div class="col-lg-6 d-inline-block d-xl-none" style="padding-top: 12%">
+                  <div class="row text-container-2 justify-content-center"> 
+                  <div style="position: absolute;width: 100%;padding: 1.6rem 1rem 0 2.5rem;">
+                    <h1 class="numero">1</h1></div>  
+                    <div style="position: absolute;width: 100%;padding: 2rem 1rem 0 6rem;">
+                    <h2 class="text-white text-section-a">AHORRO NIVEL<br>
+                    <span class="text-white text-section-a1">RECONOCIMIENTO</span></h2>
+                    </div></div> 
+                </div> <!-- end of col -->                
+                <div class="d-inline-block d-xl-none" style="width: 100%;padding-top: 40%;">                  
+                  <div class="card lift" style="margin: 0 2.1rem;">
+                    <img width="45" src="images/icon-usd-movil.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.2rem;margin-left: 42%;">
+                    <div class="card-body">
+                      <img width="55" src="images/icon-peso-dolar.svg" alt="icon-peso-dolar" style="position: absolute;">
+                      <div class="text-container-2">                        
+                        <h1 class="text-primary text-section-b border-1">De PESO a DÓLAR</h1><br><br>
                             <span class="text-primary text-section-b1">Comprá dólar solidario al<br> mejor precio del mercado.</span>                        
                         </div> <!-- end of text-container -->
-                </div> <!-- end of col -->                
+                    </div></div><!-- end of card -->
+                </div>
             </div> <!-- end of row -->
         </section>
 
@@ -143,7 +209,8 @@
 
         <section class="section-gra">
             <div class="row" style="margin-right:0; margin-left:0;">
-                <div class="col-lg-6 text-center" style="padding-top: 12%">
+        <!-- Desk --------------------------------------------------------------------------->
+                <div class="col-lg-6 text-center d-none d-xl-block" style="padding-top: 12%">
                    <img width="75" src="images/icon-dai.svg" alt="icon-dai" style="margin-bottom: 3rem;">
                    <div class="text-container-1">
                     <h1 class="numero">2</h1>
@@ -151,7 +218,7 @@
                         <span class="text-white text-section-a1">REVELACIÓN</span></h2>                        
                     </div> 
                 </div> <!-- end of col -->
-                <div class="col-lg-5" style="padding-left: 10rem; padding-top: 8%">                    
+                <div class="col-lg-5 d-none d-xl-block" style="padding-left: 10rem; padding-top: 8%">
                     <img width="160" src="images/icon-peso-dai.png" alt="icon-peso-dai" style="margin-bottom: 0.8rem;margin-left: -3rem;">
                     <div class="text-container-2">                        
                         <h1 class="text-primary text-section-b border-2">De PESO a DAI</h1>
@@ -167,7 +234,37 @@
                         <span class="text-primary text-section-b3">Buendolar es partner oficial de</span><br>
                         <span class="text-section-bg3">DAI para toda latinoamérica.</span>
                     </div>
-                </div> <!-- end of col -->                
+                </div> <!-- end of col -->
+        <!-- Movil --------------------------------------------------------------------------->
+                <div class="col-lg-6 d-inline-block d-xl-none" style="padding-top: 12%">
+                  <div class="row text-container-2 justify-content-center"> 
+                  <div style="position: absolute;width: 100%;padding: 1.6rem 1rem 0 5rem;">
+                    <h1 class="numero">2</h1></div>  
+                    <div style="position: absolute;width: 100%;padding: 2rem 1rem 0 8.5rem;">
+                    <h2 class="text-white text-section-a">AHORRO NIVEL<br>
+                    <span class="text-white text-section-a1">REVELACIÓN</span></h2>
+                    </div></div> 
+                </div> <!-- end of col -->
+                <div class="d-inline-block d-xl-none" style="width: 100%;padding-top: 40%;">                  
+                  <div class="card lift" style="margin: 0 2.1rem;">
+                    <img width="45" src="images/icon-dai-movil.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.2rem;margin-left: 42%;">
+                    <div class="card-body">
+                      <img width="120" src="images/icon-peso-dai.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.8rem; margin-left: -2.1rem;">
+                      <div class="text-container-2">                        
+                        <h1 class="text-primary text-section-b border-2">De PESO a DAI</h1><br><br>
+                          <span class="text-primary text-section-b1">Comprá y vende DAI,<br> la stablecoin por excelencia.</span>                        
+                      </div> <!-- end of text-container -->
+                      <div class="text-container-2" style="margin-top: 1.5rem;">
+                        <span class="text-primary text-section-b2">Comprá dólar digital. DAI es la principal</span><br>
+                        <span class="text-primary text-section-b2">criptomoneda dolarizada del mundo.</span><br>
+                        <span class="text-primary text-section-b2">Ganá hasta 7% anual de intereses.</span><br>
+                    </div>
+                    <div class="text-container-2" style="margin-top: 1.5rem;">
+                        <span class="text-primary text-section-b3">Buendolar es partner oficial de</span><br>
+                        <span class="text-section-bg3">DAI para toda latinoamérica.</span>
+                    </div>
+                    </div></div><!-- end of card -->
+                </div>             
             </div> <!-- end of row -->
         </section>
 
@@ -175,7 +272,8 @@
 
         <section class="section-gra">
             <div class="row" style="margin-right:0; margin-left:0;">
-                <div class="col-lg-6 text-center" style="padding-top: 12%">
+        <!-- Desk --------------------------------------------------------------------------->
+                <div class="col-lg-6 text-center d-none d-xl-block" style="padding-top: 12%">
                    <img width="75" src="images/icon-oro.svg" alt="icon-oro" style="margin-bottom: 3rem;">
                    <div class="text-container-1">
                     <h1 class="numero">3</h1>
@@ -183,8 +281,7 @@
                         <span class="text-white text-section-a1">REAFIRMACIÓN</span></h2>                        
                     </div> 
                 </div> <!-- end of col -->
-                <div class="col-lg-5" style="padding-left: 10rem; padding-top: 13%">
-                    
+                <div class="col-lg-5 d-none d-xl-block" style="padding-left: 10rem; padding-top: 13%">
                         <img width="108" src="images/icon-peso-oro.svg" alt="icon-peso-oro" style="margin-bottom: 0.8rem; margin-left: -1.5rem;">
                         <div class="text-container-2">                        
                             <h1 class="text-primary text-section-b border-3">De PESO a CRIPTO ORO</h1>
@@ -196,7 +293,34 @@
                         <span class="text-primary text-section-b2">Gracias a la tecnología blockchain accedé al</span><br>
                         <span class="text-primary text-section-b2">oro al mejor precio y con tan solo $100 pesos.</span><br>
                     </div> <!-- end of text-container -->
-                </div> <!-- end of col -->                
+                </div> <!-- end of col -->
+        <!-- Movil --------------------------------------------------------------------------->
+                <div class="col-lg-6 d-inline-block d-xl-none" style="padding-top: 12%">
+                  <div class="row text-container-2 justify-content-center"> 
+                  <div style="position: absolute;width: 100%;padding: 1.6rem 1rem 0 3.5rem;">
+                    <h1 class="numero">3</h1></div>  
+                    <div style="position: absolute;width: 100%;padding: 2rem 1rem 0 7rem;">
+                    <h2 class="text-white text-section-a">AHORRO NIVEL<br>
+                    <span class="text-white text-section-a1">REAFIRMACIÓN</span></h2>
+                    </div></div> 
+                </div> <!-- end of col -->
+                <div class="d-inline-block d-xl-none" style="width: 100%;padding-top: 40%;">                  
+                  <div class="card lift" style="margin: 0 2.1rem;">
+                    <img width="45" src="images/icon-oro-movil.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.2rem;margin-left: 42%;">
+                    <div class="card-body">
+                      <img width="90" src="images/icon-peso-oro.svg" alt="icon-peso-dolar" style="position: absolute;margin-left: -0.6rem; margin-top: 0.4rem;">
+                      <div class="text-container-2">                        
+                          <h1 class="text-primary text-section-b border-3" style="margin-left: 5.5rem;">De PESO</h1>
+                          <h1 class="text-primary text-section-b border-3" style="margin-left: 5.5rem;line-height: 0;">a CRIPTO ORO</h1><br><br>
+                          <span class="text-primary text-section-b1">Diversificar aún mejor tus ahorros.</span>                        
+                      </div> <!-- end of text-container -->
+                      <div class="text-container-2" style="margin: 1rem 0;">
+                        <span class="text-primary text-section-b2">El refugio histórico de valor.</span>
+                        <span class="text-primary text-section-b2">Gracias a la tecnología blockchain accedé al oro</span><br>
+                        <span class="text-primary text-section-b2">al mejor precio y con tan solo $100 pesos.</span><br>
+                    </div>
+                    </div></div><!-- end of card -->
+                </div>               
             </div> <!-- end of row -->
         </section>
 
@@ -204,7 +328,8 @@
 
         <section class="section-gra">
             <div class="row" style="margin-right:0; margin-left:0;">
-                <div class="col-lg-6 text-center" style="padding-top: 12%">
+        <!-- Desk --------------------------------------------------------------------------->
+                <div class="col-lg-6 text-center d-none d-xl-block" style="padding-top: 12%">
                    <img width="75" src="images/icon-bitcoin.svg" alt="icon-bitcoin" style="margin-bottom: 3rem;">
                    <div class="text-container-1">
                     <h1 class="numero">4</h1>
@@ -212,7 +337,7 @@
                         <span class="text-white text-section-a1">ILUMINADO</span></h2>                        
                     </div> 
                 </div> <!-- end of col -->
-                <div class="col-lg-5" style="padding-left: 10rem; padding-top: 9%">
+                <div class="col-lg-5 d-none d-xl-block" style="padding-left: 10rem; padding-top: 9%">
                     
                         <img width="100" src="images/icon-peso-bitcoin.svg" alt="icon-peso-bitcoin" style="margin-bottom: 0.8rem;">
                         <div class="text-container-2">                        
@@ -229,95 +354,116 @@
                     <div class="text-container-2" style="margin-top: 1.5rem;">
                         <span class="text-section-bg4">Es saber que el futuro está cerca.</span>
                     </div> <!-- end of text-container -->
-                </div> <!-- end of col -->                
+                </div> <!-- end of col -->
+        <!-- Movil --------------------------------------------------------------------------->
+                <div class="col-lg-6 d-inline-block d-xl-none" style="padding-top: 12%">
+                  <div class="row text-container-2 justify-content-center"> 
+                  <div style="position: absolute;width: 100%;padding: 1.6rem 1rem 0 5rem;">
+                    <h1 class="numero">4</h1></div>  
+                    <div style="position: absolute;width: 100%;padding: 2rem 1rem 0 8.5rem;">
+                    <h2 class="text-white text-section-a">AHORRO NIVEL<br>
+                    <span class="text-white text-section-a1">ILUMINADO</span></h2>
+                    </div></div> 
+                </div> <!-- end of col -->
+                <div class="d-inline-block d-xl-none" style="width: 100%;padding-top: 40%;">                  
+                  <div class="card lift" style="margin: 0 2.1rem;">
+                    <img width="45" src="images/icon-bitc-movil.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.2rem;margin-left: 42%;">
+                    <div class="card-body" style="padding-right: 0;">
+                      <img width="80" src="images/icon-peso-bitcoin.svg" alt="icon-peso-dolar" style="position: absolute;margin-top: -1.6rem; margin-left: -0.5rem;">
+                      <div class="text-container-2">                        
+                        <h1 class="text-primary text-section-b border-4">De PESO a BITCOIN</h1><br><br>
+                          <span class="text-primary text-section-b1">Llegaste al máximo estadío para<br> tus ahorros.</span>                        
+                      </div> <!-- end of text-container -->
+                      <div class="text-container-2" style="margin-top: 1.5rem;">
+                        <span class="text-primary text-section-b2">Ahorrar en Bitcoins es ahorrar en una economía</span><br>
+                        <span class="text-primary text-section-b2">completamente descentralizada. El Bitcoin es la</span><br>
+                        <span class="text-primary text-section-b2">criptomoneda más difundida en el planeta.</span><br>
+                    </div>
+                    <div class="text-container-2" style="margin-top: 1.5rem;">
+                        <span class="text-primary text-section-b3">Es saber que el futuro está cerca.</span>
+                    </div>
+                    </div></div><!-- end of card -->
+                </div>                   
             </div> <!-- end of row -->
         </section>
-</div>
+    </div>
+    <!-- end of seccion full screen -->
   
 
     <!-- secction -->
     <div class="slider-1 shadow-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-primary mb-5 text-title">Como usar Buendolar</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="mb-4 text-title">Como usar Buendolar</h2>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            <div class="carousel-inner">
 
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+              <div class="carousel-item active">
                 <div class="container">
                 <div class="row">
                     <div class="col-product">
-                        <div class="product-device">
-                            <img width="280" src="images/phone-1.png" alt="alternative">
-                        </div>
-                    </div> <!-- end of col -->
-                    <div class="col-lg-6" style="padding-bottom: 7rem; padding-top: 5rem;">
-                         <!-- end of img-container -->
-                        <div class="text-container bg-white">
-                            <h1 class="text-section-carou">1/</h1>
-                            <br>
-                            <span class="text-primary text-section-carou-a">Ingresás tu pesos desde<br>tu cuenta bancaria a Buendolar.</span> 
+                        <div class="product-device"><img  src="images/phone-1.png" alt="alternative"></div>
+                    </div><!-- end of col -->
+                    <div class="col-lg-6 padd-slide" style="padding-right:0;">
+                        <div class="text-container-slider bg-white">
+                            <h1 class="text-section-carou">1/</h1><br>
+                            <span class="text-primary text-section-carou-a d-none d-xl-block">Ingresás tu pesos desde<br>tu cuenta bancaria a Buendolar.</span>
+                            <span class="text-primary text-section-carou-a d-inline-block d-xl-none">Ingresás tu pesos desde tu cuenta bancaria a Buendolar.</span> 
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->                
                 </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+              </div>
+
+              <div class="carousel-item">
                 <div class="container">
                 <div class="row">
                     <div class="col-product">
-                        <div class="product-device">
-                            <img width="280" src="images/phone-2.png" alt="alternative">
-                        </div>
+                        <div class="product-device"><img  src="images/phone-2.png" alt="alternative"></div>
                     </div> <!-- end of col -->
-                    <div class="col-lg-6" style="padding-bottom: 7rem; padding-top: 5rem;">
-                         <!-- end of img-container -->
-                        <div class="text-container bg-white">
-                            <h1 class="text-section-carou">2/</h1>
-                            <br>
-                            <span class="text-primary text-section-carou-a">Comprá-vendé, invertí, ahorrá,<br>llevalo con vos siempre!</span> 
+                    <div class="col-lg-6 padd-slide" style="padding-right:0;">
+                        <div class="text-container-slider bg-white">
+                            <h1 class="text-section-carou">2/</h1><br>
+                            <span class="text-primary text-section-carou-a d-none d-xl-block">Comprá-vendé, invertí, ahorrá,<br>llevalo con vos siempre!</span>
+                            <span class="text-primary text-section-carou-a d-inline-block d-xl-none">Comprá-vendé, invertí, ahorrá, llevalo con vos siempre!</span>  
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->                
                 </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+              </div>
+
+              <div class="carousel-item">
                 <div class="container">
                 <div class="row">
                     <div class="col-product">
-                        <div class="product-device">
-                            <img width="280" src="images/phone-3.png" alt="alternative">
-                        </div>
+                        <div class="product-device"><img  src="images/phone-3.png" alt="alternative"></div>
                     </div> <!-- end of col -->
-                    <div class="col-lg-6" style="padding-bottom: 5.45rem; padding-top: 5rem;">
-                         <!-- end of img-container -->
-                        <div class="text-container bg-white">
-                            <h1 class="text-section-carou">3/</h1>
-                            <br>
-                            <span class="text-primary text-section-carou-a">Retirá: ¿Necesitás tus pesos?<br>Tenés completa disponibilidad de tu dinero.<br>¡Retiralo cuando lo deseás!</span> 
+                    <div class="col-lg-6 padd-slide" style="padding-right:0;">
+                        <div class="text-container-slider bg-white">
+                            <h1 class="text-section-carou">3/</h1><br>
+                            <span class="text-primary text-section-carou-a d-none d-xl-block">Retirá: ¿Necesitás tus pesos?<br>Tenés completa disponibilidad de tu dinero.<br>¡Retiralo cuando lo deseás!</span>
+                            <span class="text-primary text-section-carou-a d-inline-block d-xl-none">Retirá: ¿Necesitás tus pesos? Tenés completa disponibilidad de tu dinero. ¡Retiralo cuando lo deseás!</span> 
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->                
                 </div>
                 </div>
+              </div>            
+            </div>          
             </div>
-
-            
-          </div>          
-        </div>
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
     </div> <!-- end of slider-1 -->
     <!-- end of secction -->
 
@@ -395,14 +541,16 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
                     <div class="image-container">
-                        <img class="img-fluid-dow" style="position: absolute;" src="images/img-1.png" alt="alternative">
+                        <img class="img-fluid-dow" src="images/img-1.png" alt="alternative">
                     </div> <!-- end of img-container -->
                     <div class="text-container">
-                        <h2 class="text-primary text-basic-4">Sin importar como <br> decidías ahorrar,<br><span class="text-primary text-basic-4-a">que sea en un <br> mismo lugar.</span></h2>
+                        <h2 class="text-primary text-basic-4 d-none d-xl-block">Sin importar como <br> decidías ahorrar,<br><span class="text-primary text-basic-4-a">que sea en un <br> mismo lugar.</span></h2>
+
+                        <h2 class="text-primary text-basic-4 d-inline-block d-xl-none" style="margin-bottom: 1.5em;">Sin importar como decidías ahorrar, <span class="text-primary text-basic-4-a">que sea en un mismo lugar.</span></h2>
                         
-                        <a href="#your-link"><img class="img-fluid my-2" width="150" src="images/btn-apple-store.svg" alt="alternative"></a><br>
-                        <a href="#your-link"><img class="img-fluid my-2" width="150" src="images/btn-google-play.svg" alt="alternative"></a><br>
-                        <a href="#your-link"><img class="img-fluid my-2" width="150" src="images/btn-browser.svg" alt="alternative"></a><br>
+                        <a href="#your-link"><img class="img-fluid-dow-1 my-2" width="150" src="images/btn-apple-store.svg" alt="alternative"></a><br>
+                        <a href="#your-link"><img class="img-fluid-dow-1 my-2" width="150" src="images/btn-google-play.svg" alt="alternative"></a><br>
+                        <a href="#your-link"><img class="img-fluid-dow-1 my-2" width="150" src="images/btn-browser.svg" alt="alternative"></a><br>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 
@@ -433,59 +581,45 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <div class="footer-col">                        
-                        <a href="index.html"><img class="img-fluid my-2" width="200" src="images/Logo-blue.svg" alt="alternative"></a>
-                        <div class="my-4 d-none d-xl-block">
-                            <p class="text-footer-f1">Más información</p>
-                            <p class="text-footer-f2">info@buendolar.com</p>
-                        </div>
-                        <div class="my-4 d-none d-xl-block">
-                            <p class="text-footer-f1">Soporte</p>
-                            <p class="text-footer-f2">soporte@buendolar.com</p>
-                        </div>
-                        <div class="my-4 d-none d-xl-block">
-                            <a href="terminos-y-condiciones.html" class="link-a">Términos y condiciones</a>
-                            <a href="cookies.html" class="link-a">Cookies</a>
-                            <a href="legales.html" class="link-a">Legales</a>
-                        </div>
-                        <div class="my-4 d-inline-block d-xl-none">
-                            <div class="my-2"><a href="terminos-y-condiciones.html" class="link-a">Términos y condiciones</a></div>
-                            <div class="my-2"><a href="cookies.html" class="link-a">Cookies</a></div>
-                            <div class="my-2"><a href="legales.html" class="link-a">Legales</a></div>
-                        </div>
-                        
+                  <div>                        
+                    <div><a href="index.html"><img class="img-fluid my-2" width="200" src="images/Logo-blue.svg" alt="alternative"></a></div>
+                    
+                    <div class="my-4 d-none d-xl-block"><!-- desk -->
+                      <p class="text-footer-f1">Más información</p>
+                      <p class="text-footer-f2">info@buendolar.com</p>
                     </div>
+                    <div class="my-4 d-none d-xl-block"><!-- desk -->
+                      <p class="text-footer-f1">Soporte</p>
+                      <p class="text-footer-f2">soporte@buendolar.com</p>
+                    </div>
+                    <div class="my-4 d-none d-xl-block"><!-- desk -->
+                      <a href="terminos-y-condiciones.html" class="link-a">Términos y condiciones</a>
+                      <a href="cookies.html" class="link-a">Cookies</a>
+                      <a href="legales.html" class="link-a">Legales</a>
+                    </div>
+                    <div class="my-4 d-inline-block d-xl-none"><!-- movil -->
+                      <div class="my-2"><a href="terminos-y-condiciones.html" class="link-a">Términos y condiciones</a></div>
+                      <div class="my-2"><a href="cookies.html" class="link-a">Cookies</a></div>
+                      <div class="my-2"><a href="legales.html" class="link-a">Legales</a></div>
+                    </div>
+                        
+                  </div>
                 </div>
                  <!-- end of col -->
                 <div class="col-md-5">
-                    <div class="footer-col-bank last">
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <i class="fab fa-youtube fa-stack-1x"></i>
-                            </a>
-                        </span>
+                    <div class="footer-col-bank last"><!-- icons social footer -->
+                      <span class="fa-stack"><a href="#your-link" target="_blank">
+                                             <i class="fab fa-facebook-f fa-stack-1x"></i></a></span>
+                      <span class="fa-stack"><a href="#your-link" target="_blank">
+                                             <i class="fab fa-twitter fa-stack-1x"></i></a></span>
+                      <span class="fa-stack"><a href="#your-link" target="_blank">
+                                             <i class="fab fa-linkedin-in fa-stack-1x"></i></a></span>
+                      <span class="fa-stack"><a href="#your-link" target="_blank">
+                                             <i class="fab fa-instagram fa-stack-1x"></i></a></span>
+                      <span class="fa-stack"><a href="#your-link" target="_blank">
+                                             <i class="fab fa-youtube fa-stack-1x"></i></a></span>
                     </div>
-                        <div class="d-inline-block d-xl-none">
+                    <div class="d-inline-block d-xl-none"><!-- movil -->
                         <div class="my-4">
                             <p class="text-footer-f1">Más información</p>
                             <a href="cookies.html" class="link-a">info@buendolar.com</a>
@@ -494,30 +628,28 @@
                             <p class="text-footer-f1">Soporte</p>
                             <a href="cookies.html" class="link-a">soporte@buendolar.com</a>
                         </div>
-                        </div>                  
+                    </div>                  
 
-                    <div class="footer-col last d-none d-xl-block">                        
-                        <div style="text-align: right;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
-                        <div class="text-right">
-                            <p class="text-ban-arg mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
-                            <a href="#" target="_blank" class="link-bank-arg">Certificado BCRA</a>
-                        </div> 
-                    </div>                   
-
+                    <div class="footer-col last d-none d-xl-block"><!-- desk -->                        
+                      <div style="text-align: right;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
+                      <div class="text-right">
+                        <p class="text-ban-arg mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
+                        <a href="#" target="_blank" class="link-bank-arg">Certificado BCRA</a>
+                      </div> 
+                    </div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->
+
+    <!-- movil -->
     <div class="footer-col last bg-dark py-4 px-5 d-inline-block d-xl-none">                        
-        <div style="text-align: left;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
-        <div class="text-left">
-            <p class="text-ban-arg-mov mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
-            <a href="#" target="_blank" class="link-bank-arg">Certificado BCRA</a>
-        </div> 
+      <div style="text-align: left;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
+      <div class="text-left">
+        <p class="text-ban-arg-mov mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
+        <a href="#" target="_blank" class="link-bank-arg">Certificado BCRA</a>
+      </div> 
     </div>  
-
-
-
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
