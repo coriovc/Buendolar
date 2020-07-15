@@ -3372,6 +3372,16 @@ a:hover.back-to-top {
   font-size: 1rem;
 }
 
+.form-control:focus:invalid + .error-label {  
+  color: #bf0811;
+}
+.form-control:invalid + .error-label {  
+  color: #bf0811;
+}
+.form-control:valid + .error-label {  
+  color: #99cc33;
+}
+
 /*.form-control:invalid + .form-control-placeholder {
   -webkit-transform: translate3d(0, -120%, 0);
           transform: translate3d(0, -120%, 0);}
@@ -3409,10 +3419,6 @@ a:hover.back-to-top {
 	margin-bottom: 2.5rem !important;
 }
 
-
-.error-label {  
-  color: #bf0811 ;
-}
 
 .vertical-line{
     background-color: #edeef0;

@@ -102,11 +102,11 @@
                 </div>
                 <div class="card shadow-none">
                   <div class="card-body">                        
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form>
                       <div class="form-group row justify-content-center" style="margin-top: 2rem;">                  
                           <div class="col-md-5 form-marg mx-2 nombre">
                             <input type="text" id="nombre" class="form-control" required>
-                            <label class="form-control-placeholder nombre" for="nombre">Nombre</label>
+                            <label class="form-control-placeholder nombre1" for="nombre">Nombre</label>
                             <div class="invalid-feedback">Por favor ingrese su nombre</div>
                           </div>
 
@@ -118,15 +118,17 @@
                       </div>                      
                       <div class="form-group row justify-content-center">                  
                           <div class="col-md-5 form-marg mx-2 phone">
-                            <input type="tel" id="phone" value="" class="form-control" minlength="10" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" value="" required>
+                            <input type="tel" id="phone" value="" class="form-control" value="" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
                             <label class="form-control-placeholder phone" for="phone">Teléfono</label>
                             <div class="invalid-feedback"><span id="error_phone"></span></div>
+                            <div class="valid-feedback"><span id="valid_phone"></span></div>
                           </div>
 
                           <div class="col-md-5 form-marg mx-2 email">
-                            <input type="email" id="email" class="form-control" required>
+                            <input type="text" id="email" class="form-control" value="" required>
                             <label class="form-control-placeholder email" for="email">Mail</label>
                             <div class="invalid-feedback"><span id="error_email"></span></div>
+                            <div class="valid-feedback"><span id="valid_email"></span></div>
                           </div>
                       </div>
                       <div class="form-group row justify-content-center">                  

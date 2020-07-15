@@ -8,7 +8,7 @@ $(document).ready(function() {
 		if ( trim($("#nombre").val()) == '' )
 		{
 			$('.nombre').addClass('was-validated');
-			$('.nombre').addClass('error-label');
+			$('.nombre1').addClass('error-label');
 			$("#nombre").val('').focus();
 			return false;
 		}
@@ -38,8 +38,8 @@ $(document).ready(function() {
 			{
 				$('.phone').addClass('was-validated');
 				$('.phone').addClass('error-label');
-				$("#error_phone").html('Ingresa el código de área sin el 15: EJ: 1145652798');
-				$("#error_phone").show();				
+				$("#valid_phone").html('Ingresa el código de área sin el 15: EJ: 1145652798');
+				$("#valid_phone").show();				
 				$("#phone").focus();
 				return false;
 
@@ -48,6 +48,7 @@ $(document).ready(function() {
 			{
 				
 				$("#error_phone").hide();
+				$("#valid_phone").hide();
 			}
 		}
 		//email
@@ -67,14 +68,15 @@ $(document).ready(function() {
 			{
 				$('.email').addClass('was-validated');
 				$('.email').addClass('error-label');
-				$("#error_email").html('El formato del mail no es válido');
-				$("#error_email").show();
+				$("#valid_email").html('El formato del mail no es válido EJ: buendolar@mail.com');
+				$("#valid_email").show();
 				$("#email").focus();
 				return false;
 			}
 			else
 			{
 				$("#error_email").hide();
+				$("#valid_email").hide();
 			}
 		}		
 				
