@@ -51,8 +51,17 @@
         </div>
         
         <!-- Collapse menu movil -->
-        <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="margin: 0px -1rem; padding: 1.2rem;">
-          <ul class="navbar-nav ml-auto text-center" style="margin: -1rem 0 4rem 0;">                
+        <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="position: relative;margin:-4rem -1rem;padding: 1.2rem;">
+            <div class="navbar-movil-top">       
+            <a class="navbar-brand logo-image-small" href="index.html"><img src="images/Logo-small-green.svg" alt="alternative"></a> 
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" style="color:#434d51; float: right;" id="btn-nav" type="button" data-toggle="collapse" data-target="#navbar-movil" aria-controls="navbar-movil" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            </div>
+          <ul class="navbar-nav ml-auto text-center" style="margin: 0 0 4rem 0;">                
             <li class="nav-item my-3">
               <a class="link-a" href="https://blog.buendolar.com/" target="_blank">Blog</a></li>
             <li class="nav-item my-3"><a class="link-a" href="contacto.html">Contacto</a></li>
@@ -76,7 +85,7 @@
             <div class="row my-4 justify-content-between" style="margin: 1rem;"><!-- footer Collapse menu movil -->   
               <div>
                 <div><a href="terminos.html" class="link-a mov">Términos y condiciones</a></div>
-                <div><a href="politicas.html#cookies" class="link-a mov">Cookies</a></div>
+                <div><a href="politicas.html#cookies" class="page-scroll link-a mov">Cookies</a></div>
                 <div><a href="legales.html" class="link-a mov">Legales</a></div>
               </div>
               <div> 
@@ -86,10 +95,10 @@
                 </div>
                 <div class="mt-1">
                     <p class="text-footer-f1" style="margin-bottom: -0.5rem;">Soporte</p>
-                    <a href="#soporte-link" class="link-a mov">soporte@buendolar.com</a>
+                    <a href="mailto:soporte@buendolar.com" class="link-a mov">soporte@buendolar.com</a>
                 </div>
               </div>
-            </div>     
+            </div><br><br><br><br><br>    
         </div><!-- end of Collapse menu movil -->
     </nav><!-- end of navigation -->
     
@@ -146,12 +155,15 @@
                 </div>             
             </div>
             </div> <!-- end of row -->           
-        </div>        
+        </div>
+        <svg style="position:absolute;
+    bottom:0;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2003.59 174"><title>curve</title><path d="M1.5,562.5s837.17,286,2003.59,0c0,222-9.59,131-9.59,131l7,43H1.5Z" transform="translate(-0.4 -562.5)" fill="#fff"/></svg>           
     </div>
     
-    <div style="margin-top: 16rem;"></div>   
-    <hr>
+    
 
+    <div style="margin-top: 25rem;"></div>   
+    <hr>
     <!-- Footer -->
     <div class="footer">
         <div class="container">
@@ -170,12 +182,12 @@
                     </div>
                     <div class="my-4 d-none d-xl-block"><!-- desk -->
                       <a href="terminos.html" class="link-a">Términos y condiciones</a>
-                      <a href="politicas.html#cookies" class="link-a">Cookies</a>
+                      <a href="politicas.html#cookies" class="page-scroll link-a">Cookies</a>
                       <a href="legales.html" class="link-a">Legales</a>
                     </div>
                     <div class="my-4 d-inline-block d-xl-none"><!-- movil -->
                       <div class="my-2"><a href="terminos.html" class="link-a">Términos y condiciones</a></div>
-                      <div class="my-2"><a href="politicas.html#cookies" class="link-a">Cookies</a></div>
+                      <div class="my-2"><a href="politicas.html#cookies" class="page-scroll link-a">Cookies</a></div>
                       <div class="my-2"><a href="legales.html" class="link-a">Legales</a></div>
                     </div>
                         
@@ -210,9 +222,9 @@
                             <a href="mailto:soporte@buendolar.com" class="link-a">soporte@buendolar.com</a>
                         </div>
                     </div>                  
-
-                    <div class="footer-col last d-none d-xl-block"><!-- desk -->                        
-                      <div style="text-align: right;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
+                    <!-- desk --> 
+                    <div class="footer-col last d-none d-xl-block">                       
+                      <div style="text-align: right;"><div class="mr-2 mt-4"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
                       <div class="text-right">
                         <p class="text-ban-arg mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
                         <a href="https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Agencias_de_cambio.asp" target="_blank" class="link-bank-arg">Certificado BCRA</a>
@@ -231,11 +243,7 @@
         <a href="https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Agencias_de_cambio.asp" target="_blank" class="link-bank-arg">Certificado BCRA</a>
       </div> 
     </div> <!-- end of footer bank movil --> 
-    
-
-
-
-    	
+        
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->

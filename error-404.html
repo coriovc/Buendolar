@@ -43,8 +43,17 @@
         </div>
                 
         <!-- Collapse menu movil -->
-        <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="margin: 0px -1rem; padding: 1.2rem;">
-          <ul class="navbar-nav ml-auto text-center" style="margin: -1rem 0 4rem 0;">                
+        <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="position: relative;margin:-4rem -1rem;padding: 1.2rem;">
+            <div class="navbar-movil-top">       
+            <a class="navbar-brand logo-image-small" href="index.html"><img src="images/Logo-small-green.svg" alt="alternative"></a> 
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" style="color:#434d51; float: right;" id="btn-nav" type="button" data-toggle="collapse" data-target="#navbar-movil" aria-controls="navbar-movil" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            </div>
+          <ul class="navbar-nav ml-auto text-center" style="margin: 0 0 4rem 0;">                
             <li class="nav-item my-3">
               <a class="link-a" href="https://blog.buendolar.com/" target="_blank">Blog</a></li>
             <li class="nav-item my-3"><a class="link-a" href="contacto.html">Contacto</a></li>
@@ -81,7 +90,7 @@
                     <a href="mailto:soporte@buendolar.com" class="link-a mov">soporte@buendolar.com</a>
                 </div>
               </div>
-            </div>     
+            </div><br><br><br><br><br>    
         </div><!-- end of Collapse menu movil -->
     </nav><!-- end of navigation -->
     
@@ -119,7 +128,6 @@
     </div>
 
     <hr>
-
     <!-- Footer -->
     <div class="footer">
         <div class="container">
@@ -178,9 +186,9 @@
                             <a href="mailto:soporte@buendolar.com" class="link-a">soporte@buendolar.com</a>
                         </div>
                     </div>                  
-
-                    <div class="footer-col last d-none d-xl-block"><!-- desk -->                        
-                      <div style="text-align: right;"><div class="mr-2"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
+                    <!-- desk --> 
+                    <div class="footer-col last d-none d-xl-block">                       
+                      <div style="text-align: right;"><div class="mr-2 mt-4"><img width="250" src="images/bank-arg.svg" alt="alternative"></div></div>
                       <div class="text-right">
                         <p class="text-ban-arg mt-3">Estamos regulados como Agencia de Cambio por el BCRA y la UIF para cumplir con todos los requisitos de seguridad. Nuestro número de registro es el 20246 y nuestra razón social es NOSPREAD TECNOLOGÍA S.R.L..</p>
                         <a href="https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Agencias_de_cambio.asp" target="_blank" class="link-bank-arg">Certificado BCRA</a>
@@ -199,7 +207,7 @@
         <a href="https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Agencias_de_cambio.asp" target="_blank" class="link-bank-arg">Certificado BCRA</a>
       </div> 
     </div> <!-- end of footer bank movil --> 
-      
+        
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
