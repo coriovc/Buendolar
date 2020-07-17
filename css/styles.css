@@ -1583,7 +1583,7 @@ input[type='checkbox'] {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {	
-	padding-top: 10rem;
+	padding-top: 9rem;
 	padding-bottom: 0;
 	background-color: #fff;
 	position: relative;
@@ -3572,12 +3572,12 @@ a:hover.back-to-top {
 
 
 
-.scroll-container,
+/*.scroll-container,
 .scroll-area {
   max-width: 100%;
   height: 100vh;
   }
-			/*@media (min-width: 360px) {
+			@media (min-width: 360px) {
 			.scroll-container,.scroll-area{height: 85vh;}
 			}
 			@media (min-width: 370px) {
@@ -3607,7 +3607,7 @@ a:hover.back-to-top {
 			@media (min-width: 1124px) {
 			.scroll-container,.scroll-area{height: 100vh;}
 			}
-*/
+
 .scroll-container::-webkit-scrollbar {
     display: none;
 }
@@ -3618,7 +3618,7 @@ a:hover.back-to-top {
 }
 .scroll-area {
   scroll-snap-align: start;
-}
+}*/
 
 .scroll-area.area1{
   background: linear-gradient(180deg,rgba(148,186,59,1),rgba(0,234,102,1));
@@ -3721,28 +3721,3 @@ a:hover.back-to-top {
   scroll-snap-align: end;
 }
 
-
-
-div#bad {
-    position: absolute;
-    
-    height: 200px;
-    width: 200px;
-    overflow: scroll; 
-}
-
-div#good {
-    position: absolute;
-    
-    overflow: scroll; 
-}
-
-.FloatingContainer {
-    top:25%;
-    left:25%;
-    overflow:auto;
-}
-
-.carousel-he{
-	height: 0;
-}
