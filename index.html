@@ -27,14 +27,14 @@
     </div><!-- preloader -->
     
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top bg-white shadow-sm top-nav-fp">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image d-none d-xl-block" href="index.html"><img src="images/Logo-blue.svg" alt="alternative"></a>        
-        <a class="navbar-brand logo-image-small d-inline-block d-xl-none" href="index.html"><img src="images/Logo-small-green.svg" alt="alternative"></a> 
+        <a class="navbar-brand logo-image d-none d-xl-block" href="index.html"><img id="logo" src="images/Logo-white.svg" alt="alternative"></a>        
+        <a class="navbar-brand logo-image-small d-inline-block d-xl-none" href="index.html"><img id="logo-movil" src="images/Logo-small-white.svg" alt="alternative"></a> 
         
         <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" id="btn-nav" type="button" data-toggle="collapse" data-target="#navbar-movil" aria-controls="navbar-movil" aria-expanded="false" aria-label="Toggle navigation" style="color: #434d51;">
+        <button class="navbar-toggler" id="btn-nav" type="button" data-toggle="collapse" data-target="#navbar-movil" aria-controls="navbar-movil" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
             <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
@@ -42,14 +42,14 @@
 
         <!-- menu desk -->
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link-2" href="https://blog.buendolar.com/" target="_blank">Blog</a></li>
-            <li class="nav-item"><a class="nav-link-2" href="contacto.html">Contacto</a></li>
-            <li class="nav-item"><a class="btn-green" href="https://app.buendolar.com/registro/">Registrarce</a></li>   
-            <li class="nav-item"><a class="btn-green-outline ml-3" href="https://app.buendolar.com/">Ingresar</a></li> 
+          <ul class="navbar-nav ml-auto">                
+            <li class="nav-item"><a class="nav-link" href="https://blog.buendolar.com/" target="_blank">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="btn-reg" href="https://app.buendolar.com/registro/">Registrarce</a></li>   
+            <li class="nav-item"><a class="btn-log ml-3" href="https://app.buendolar.com/">Ingresar</a></li>
           </ul>            
         </div>
-                
+        
         <!-- Collapse menu movil -->
         <div class="collapse navbar-collapse2 bg-white" id="navbar-movil" style="position: relative;margin:-4rem -1rem;padding: 1.2rem;">
             <div class="navbar-movil-top">       
@@ -145,7 +145,7 @@
                 </div> <!-- end of row -->       
         </div>
         <div class="scrolldown">
-        <a href="#nivel-1" style="text-decoration: none;"><span>Scrolldown<br><i class="fas fa-arrow-down"></i></span></a>
+        <a data-menuanchor="nivel-0" href="#nivel-0" style="text-decoration: none;"><span>Scrolldown<br><i class="fas fa-arrow-down"></i></span></a>
         </div> 
         <svg style="position:absolute;
         bottom:0;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2003.59 174"><title>curve</title><path d="M1.5,562.5s837.17,286,2003.59,0c0,222-9.59,131-9.59,131l7,43H1.5Z" transform="translate(-0.4 -562.5)" fill="#fff"/></svg>      
@@ -170,14 +170,15 @@
         </div> <!-- end of container -->
     </div>
     <!-- end of header movil -->
-  
+  </div>
+  <div class="section fp-auto-height" id="section1">
     <!-- secction-1-->
     <div class="slider-2">
         <div class="container">
             <div class="row">                
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-primary text-title-cca" data-aos="fade-up" data-aos-delay="">Conocé como ahorrar con Buendolar</h2>
-                    <h3 class="text-pri-a" data-aos="fade-up" data-aos-delay="200">4 escalones hacia tu mejor ahorro.</h3>
+                    <h2 class="text-primary text-title-cca"  data-aos-delay="">Conocé como ahorrar con Buendolar</h2>
+                    <h3 class="text-pri-a"  >4 escalones hacia tu mejor ahorro.</h3>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->           
         </div> <!-- end of container -->
@@ -186,9 +187,9 @@
   </div>
   
   
-   <!-- seccion full screen ------------------------------------------------------------->
+  <!-- seccion full screen ------------------------------------------------------------->
     
-    <div class="section scroll-area area1" id="section1">
+    <div class="section scroll-area area1" id="section2">
         <!-- seccion 1 -->
         <section class="">
             <div class="row" style="margin-right:0; margin-left:0;">
@@ -238,7 +239,7 @@
         </section>
     </div>
 
-    <div class="section scroll-area area2" id="section2">   
+    <div class="section scroll-area area2" id="section3">   
         <!-- seccion 2 -->   
         <section class="">
             <div class="row" style="margin-right:0; margin-left:0;">
@@ -305,7 +306,7 @@
         </section>
     </div>
 
-    <div class="section scroll-area area3" id="section3"> 
+    <div class="section scroll-area area3" id="section4"> 
         <!-- seccion 3 -->
         <section class="">
             <div class="row" style="margin-right:0; margin-left:0;">
@@ -367,7 +368,7 @@
         </section>
     </div>
     
-    <div class="section scroll-area area4" id="section4"> 
+    <div class="section scroll-area area4" id="section5"> 
         <!-- seccion 4 -->
         <section class="">
             <div class="row" style="margin-right:0; margin-left:0;">
@@ -431,17 +432,21 @@
                     </div>
                   </div><!-- end of card -->
                 </div>  
+
             </div> <!-- end of row -->
         </section>
     </div> 
 
-  <div class="section" id="section5">
+  <div class="section" id="section6">
+    
+
     <!-- secction-2 -->
     <div class="slider-1 shadow-sec">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center" data-aos="fade-up">
-            <h2 class="mb-4 text-title">Como usar Buendolar</h2>
+          <div class="col-lg-12 text-center" >
+            <h2 class="mb-4 text-title d-none d-xl-block">Como usar Buendolar</h2>
+            <h2 class="mb-4 text-title d-inline-block d-xl-none">Como usar<br>Buendolar</h2>
           </div> <!-- end of col -->
         </div> <!-- end of row -->
         
@@ -550,14 +555,14 @@
     <div class="basic-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                <div class="col-lg-12 text-center mb-5" >
                     <h2 class="text-primary mb-5 text-title">Ventajas Buendolar App</h2>
                 </div> <!-- end of col -->
             </div>            
             <div class="row justify-content-center" style="padding-bottom: 5rem;">
                 <div class="col-lg-10">
                 <div class="row justify-content-between">
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Simple</h5>
@@ -565,7 +570,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Disponible</h5>
@@ -575,7 +580,7 @@
                   </div>
                 </div>
                 <div class="row justify-content-between">
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Rápido</h5>
@@ -583,7 +588,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Resguardo</h5>
@@ -593,7 +598,7 @@
                   </div>
                 </div>
                 <div class="row justify-content-between">
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Productivo</h5>
@@ -601,7 +606,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 my-3" style="padding: 0 2rem;" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 my-3" style="padding: 0 2rem;">
                     <div class="card lift card-border">
                       <div class="card-body">
                         <h5 class="title-card">Libre</h5>
@@ -618,9 +623,9 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
                     <div class="image-container">
-                        <img class="img-fluid-dow" src="images/img-1.png" alt="alternative" data-aos="fade-right">
+                        <img class="img-fluid-dow" src="images/img-1.png" alt="alternative">
                     </div> <!-- end of img-container -->
-                    <div class="text-container" data-aos="fade" data-aos-delay="200">
+                    <div class="text-container">
                         <h2 class="text-primary text-basic-4 d-none d-xl-block">Sin importar como <br> decidías ahorrar,<br><span class="text-primary text-basic-4-a">que sea en un <br> mismo lugar.</span></h2>
 
                         <h2 class="text-primary text-basic-4 d-inline-block d-xl-none" style="margin-bottom: 1.5em;">Sin importar como decidías ahorrar, <span class="text-primary text-basic-4-a">que sea en un mismo lugar.</span></h2>
@@ -642,8 +647,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     
-                    <h2 class="text-white text-buen-moment" data-aos="fade-up" data-aos-delay="0">LLEGASTE EN UN <img class="img-buen-m" src="images/buen-momento.svg" alt="alternative"></h2>
-                    <h3 class="text-buen-moment-sub mt-4" data-aos="fade-up" data-aos-delay="200">Bienvenido a la nueva economía digital.</h3>
+                    <h2 class="text-white text-buen-moment">LLEGASTE EN UN <img class="img-buen-m" src="images/buen-momento.svg" alt="alternative"></h2>
+                    <h3 class="text-buen-moment-sub mt-4">Bienvenido a la nueva economía digital.</h3>
                     
                     
                 </div> <!-- end of col -->
@@ -732,9 +737,10 @@
     </div> <!-- end of footer bank movil --> 
   </div>
 </div>
-    <!-- Scripts -->
     <script src="js/scrolloverflow.min.js"></script>
     <script src="js/fullpage.min.js"></script>
+  
+    <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework --> 
@@ -744,12 +750,18 @@
     <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    <script type="text/javascript">
-        var myFullpage = new fullpage('#fullpage', {
-            anchors: ['home', 'nivel-1', 'nivel-2', 'nivel-3', 'nivel-4', 'nivel-5'],
-            scrollOverflow: true,
-            scrollingSpeed:1000,
-        });
-    </script>
+    
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['home', 'nivel-0', 'nivel-1', 'nivel-2', 'nivel-3', 'nivel-4', 'nivel-5'],
+        scrollOverflow: true,
+        autoScrolling:true,
+        scrollBar:true,
+        verticalCentered: true
+});
+        
+    
+</script>
+    
 </body>
 </html>
