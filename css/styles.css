@@ -126,7 +126,6 @@ body, p {
 
 .device {
   padding-bottom: 198.89807163%;
-  background-image: url(../images/portrait.ng);
   z-index: initial;
 }
 
@@ -2118,7 +2117,6 @@ input[type='checkbox'] {
 /************************/
 .basic-4 {
 	padding-top: 6.5rem;
-	padding-bottom: 6.75rem;
 	background-color: #fff;
 }
 
@@ -2140,6 +2138,29 @@ input[type='checkbox'] {
 	margin-bottom: 1.25rem;
 }
 
+.basic-down {
+	padding-top: 6.5rem;
+	padding-bottom: 6.75rem;
+	background-color: #fff;
+}
+
+.basic-down .text-container {
+	margin-bottom: 3.5rem;
+	text-align: center;
+}
+
+.basic-down h2 {
+	margin-bottom: 1.25rem;
+}
+
+.basic-down .p-large {
+	margin-bottom: 1.75rem;
+}
+
+.basic-down .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
 
 /**************************/
 /*     12. Statistics     */
@@ -2796,6 +2817,16 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		text-align: left;
 	}
+	.basic-down {
+		padding-top: 6.75rem;
+	}
+
+	.basic-down .text-container {
+		margin-top: 7rem;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
 	/* end of download */
 
 
@@ -2961,6 +2992,14 @@ a:hover.back-to-top {
 	}
 
 	.basic-4 .image-container {
+		margin-left: -28rem;
+	}
+
+	.basic-down .text-container {
+		margin-top: 2rem;
+	}
+
+	.basic-down .image-container {
 		margin-left: -28rem;
 	}
 	/* end of download */

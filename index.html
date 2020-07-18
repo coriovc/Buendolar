@@ -145,7 +145,7 @@
                 </div> <!-- end of row -->       
         </div>
         <div class="scrolldown">
-        <a data-menuanchor="nivel-0" href="#nivel-0" style="text-decoration: none;"><span>Scrolldown<br><i class="fas fa-arrow-down"></i></span></a>
+        <a data-menuanchor="Ahorrar_con_Buendolar" href="#Ahorrar_con_Buendolar" style="text-decoration: none;"><span>Scrolldown<br><i class="fas fa-arrow-down"></i></span></a>
         </div> 
         <svg style="position:absolute;
         bottom:0;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2003.59 174"><title>curve</title><path d="M1.5,562.5s837.17,286,2003.59,0c0,222-9.59,131-9.59,131l7,43H1.5Z" transform="translate(-0.4 -562.5)" fill="#fff"/></svg>      
@@ -438,8 +438,6 @@
     </div> 
 
   <div class="section" id="section6">
-    
-
     <!-- secction-2 -->
     <div class="slider-1 shadow-sec">
       <div class="container">
@@ -550,12 +548,13 @@
       </div> <!-- end of container -->
     </div>
     <!-- end of secction-2 -->
-  
-    <!-- Download -->
+  </div>
+  <div class="section fp-auto-height" id="section7">
+    <!-- Ventajas -->
     <div class="basic-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center mb-5" >
+                <div class="col-lg-12 text-center" >
                     <h2 class="text-primary mb-5 text-title">Ventajas Buendolar App</h2>
                 </div> <!-- end of col -->
             </div>            
@@ -617,6 +616,14 @@
                 </div>
                 </div> <!-- end of col -->
             </div>
+        </div> <!-- end of container -->
+    </div>
+    <!-- end of Ventajas -->
+  </div>
+  <div class="section" id="section8">
+    <!-- Download -->
+    <div class="basic-down">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
                     
@@ -635,13 +642,13 @@
                         <a href="#browser-link"><img class="img-fluid-dow-1 my-2" width="150" src="images/btn-browser.svg" alt="alternative"></a><br>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div>
     <!-- end of download -->
-  
-    <!-- counter -->
+  </div>
+  <div class="section fp-auto-height" id="section9">
+    <!-- Buen momento -->
     <div class="counter">
         <div class="container">
             <div class="row">
@@ -654,7 +661,7 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of counter -->
+    </div> <!-- end of Buen momento -->
 
     <!-- Footer -->
     <div class="footer">
@@ -745,19 +752,18 @@
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework --> 
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
     
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['home', 'nivel-0', 'nivel-1', 'nivel-2', 'nivel-3', 'nivel-4', 'nivel-5'],
+        anchors: ['Home', 'Ahorrar_con_Buendolar', 'Ahorro_nivel_1', 'Ahorro_nivel_2', 'Ahorro_nivel_3', 'Ahorro_nivel_4', 'Como_usar_Buendolar', 'Ventajas_Buendolar_App', 'Descargar', 'Buen_Momento'],
         scrollOverflow: true,
         autoScrolling:true,
         scrollBar:true,
-        verticalCentered: true
+        normalScrollElements: '.collapse',
+        scrollingSpeed: 500
 });
         
     
