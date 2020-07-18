@@ -543,8 +543,48 @@ mark,
             margin-left: 0;} }
 
 .img-fluid-carousel{
-  margin: 0;
+  max-width: 72%;
+  height: auto;
+  padding-top: 7%;
 }
+      @media (min-width: 360px) and (max-height: 600px){
+          .img-fluid-carousel{
+            max-width:100%;
+            margin-left: 0;}}
+      
+      @media (min-width: 370px) and (min-height: 600px){
+          .img-fluid-carousel{
+            max-width:75%;
+            margin-left: 0;}}
+
+      @media (min-width: 370px) and (min-height: 700px) {
+          .img-fluid-carousel{
+            max-width:112%;
+            margin-left: -5%;}}
+
+      @media (min-width: 400px){
+          .img-fluid-carousel{
+            max-width:79%;
+            margin-left: 0;}}
+
+      @media (min-width: 400px) and (min-height: 800px){
+          .img-fluid-carousel{
+            max-width:100%;
+            margin-left: 0;}}
+      
+      @media (min-width: 768px) {
+          .img-fluid-carousel{
+            max-width:100%;
+            margin-left: 0;}}
+
+      @media (min-width: 992px) {
+          .img-fluid-carousel{
+            max-width:100%;
+            margin-left: 0;}}
+      @media (min-width: 1000px) {
+          .img-fluid-carousel{
+            max-width:100%;
+            margin-left: 0;}}
 
 .img-fluid-phone {
     max-width: 60%;
@@ -6357,8 +6397,7 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
   .carousel-inner::after {
     display: block;
     clear: both;
@@ -6520,23 +6559,35 @@ a.close.disabled {
 }
       @media (min-width: 360px) {
           .carousel-indicators {
-            margin-left: 45%; } }
+            bottom: -12rem; } }
 
-      @media (min-width: 410px) {
+      @media (min-width: 375px) {
           .carousel-indicators {
-            margin-left: 30%; } }
+            bottom: -16rem; } }
+
+      @media (min-width: 375px) and (min-height: 800px){
+          .carousel-indicators {
+            bottom: -21.5rem; } }
+
+      @media (min-width: 410px)  and (min-height: 700px) {
+          .carousel-indicators {
+            bottom: -18rem; } }
+
+      @media (min-width: 410px)  and (min-height: 800px) {
+          .carousel-indicators {
+            bottom: -21.5rem; } }
 
       @media (min-width: 768px) {
           .carousel-indicators {
-            margin-left: 37%; } }
+            bottom: -21.5rem; } }
 
       @media (min-width: 992px) {
           .carousel-indicators {
-            margin-left: 15%; } }
+            bottom: 0; } }
 
       @media (min-width: 1000px) {
           .carousel-indicators {
-            margin-left: 15%; } }
+            bottom: 0; } }
 
 .carousel-indicators li {
   box-sizing: content-box;
