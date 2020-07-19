@@ -1677,7 +1677,7 @@ input[type='checkbox'] {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {	
-	padding-top: 3rem;
+	padding-top: 6rem;
 	background-color: #fff;
 	display: flex;
   	/*display: -ms-flexbox;
@@ -1697,11 +1697,11 @@ input[type='checkbox'] {
     margin-bottom: 3rem; } }
 @media (min-width: 992px) {
     .slider-1 {
-    padding-top: 0;
+    padding-top: 6rem;
     margin-bottom: 2rem; } }
 @media (min-width: 1000px) {
     .slider-1 {
-    padding-top: 0;
+    padding-top: 6rem;
     margin-bottom: 2rem; } }
 
 .section-carousel {	
