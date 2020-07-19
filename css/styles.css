@@ -1677,6 +1677,7 @@ input[type='checkbox'] {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {	
+	padding-top: 3rem;
 	background-color: #fff;
 	display: flex;
   	/*display: -ms-flexbox;
@@ -1699,8 +1700,15 @@ input[type='checkbox'] {
     .slider-1 {
     height: auto; } }*/
 
-
-
+.section-carousel {	
+	padding-top: 3rem;
+	background-color: #fff;
+	display: flex;
+  	padding-top: 6rem;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 2rem;
+}
 
 /************************/
 /*     05. Features     */
@@ -3885,4 +3893,11 @@ a:hover.back-to-top {
 
 .fp-scroller{
 	overflow:visible; 
+}
+
+.blur-nav{
+	background-color: rgba(255, 255, 255, .7);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  padding: 0.5rem 1.5rem 0.5rem 2rem;
 }
