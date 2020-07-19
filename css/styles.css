@@ -1689,16 +1689,20 @@ input[type='checkbox'] {
 
 @media (min-width: 360px) {
     .slider-1 {
-    padding-top: 5rem; } }
+    padding-top: 6rem;
+    margin-bottom: 3rem; } }
 @media (min-width: 768px) {
     .slider-1 {
-    padding-top: 5rem; } }
+    padding-top: 6rem;
+    margin-bottom: 3rem; } }
 @media (min-width: 992px) {
     .slider-1 {
-    padding-top: 3rem; } }
+    padding-top: 0;
+    margin-bottom: 2rem; } }
 @media (min-width: 1000px) {
     .slider-1 {
-    padding-top: 3rem; } }
+    padding-top: 0;
+    margin-bottom: 2rem; } }
 
 .section-carousel {	
 	padding-top: 3rem;
