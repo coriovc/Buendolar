@@ -166,7 +166,7 @@ body, p {
 
 
 .img-carousel{
-	width: 90%;
+	width: 75%;
     bottom: 0;
     margin: auto;
     display: block;
@@ -1686,19 +1686,19 @@ input[type='checkbox'] {
   	flex-direction: column;  	
   	word-wrap: break-word;*/
 }
-/*
+
 @media (min-width: 360px) {
     .slider-1 {
-    height: 90vh; } }
+    padding-top: 5rem; } }
 @media (min-width: 768px) {
     .slider-1 {
-    height: 90vh; } }
+    padding-top: 5rem; } }
 @media (min-width: 992px) {
     .slider-1 {
-    height: auto; } }
+    padding-top: 3rem; } }
 @media (min-width: 1000px) {
     .slider-1 {
-    height: auto; } }*/
+    padding-top: 3rem; } }
 
 .section-carousel {	
 	padding-top: 3rem;
