@@ -3900,7 +3900,7 @@ a:hover.back-to-top {
 }
 
 .blur-nav{
-	background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .7);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   padding: 0.5rem 1.5rem 0.5rem 2rem;
