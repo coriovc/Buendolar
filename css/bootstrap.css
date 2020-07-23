@@ -2043,6 +2043,7 @@ pre code {
   outline: 0;
 }
 
+
 .form-control::-webkit-input-placeholder {
   color: #6c757d;
   opacity: 1;
@@ -2240,6 +2241,7 @@ textarea.form-control {
   border-color: #99cc33;
 }
 
+
 .was-validated .form-control:valid ~ .valid-feedback,
 .was-validated .form-control:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback,
 .form-control.is-valid ~ .valid-tooltip {
@@ -2351,6 +2353,7 @@ textarea.form-control {
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border-color: #bf0811;
 }
+
 
 .was-validated .form-control:invalid ~ .invalid-feedback,
 .was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback,
